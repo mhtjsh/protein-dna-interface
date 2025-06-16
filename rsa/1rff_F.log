@@ -1,0 +1,124 @@
+ ACCALL - Accessibility calculations
+ MAX RESIDUES     8000
+ MAX ATOMS/RES     100
+ PDB FILE INPUT split_chains/1rff_F.pdb
+ PROBE SIZE       1.40
+ Z-SLICE WIDTH   0.050
+ VDW RADII FILE /home/sdlab/naccess/Naccess/vdw.radii
+ EXCL HETATOMS
+ EXCL HYDROGENS
+ EXCL WATERS
+ READVDW  32 residues input
+ UNKNOWN residue type.............>  DG F 804 
+ NON-STANDARD atom.| P  | in residue>  DG F 804 
+ ASSUMED vdw of  P   in  DG F 804  =  1.90 (same as   A)
+ NON-STANDARD atom.| OP1| in residue>  DG F 804 
+ GUESSED vdw of  OP1 in  DG F 804  =  1.40
+ NON-STANDARD atom.| OP2| in residue>  DG F 804 
+ GUESSED vdw of  OP2 in  DG F 804  =  1.40
+ NON-STANDARD atom.| O5'| in residue>  DG F 804 
+ GUESSED vdw of  O5' in  DG F 804  =  1.40
+ NON-STANDARD atom.| C5'| in residue>  DG F 804 
+ GUESSED vdw of  C5' in  DG F 804  =  1.80
+ NON-STANDARD atom.| C4'| in residue>  DG F 804 
+ GUESSED vdw of  C4' in  DG F 804  =  1.80
+ NON-STANDARD atom.| O4'| in residue>  DG F 804 
+ GUESSED vdw of  O4' in  DG F 804  =  1.40
+ NON-STANDARD atom.| C3'| in residue>  DG F 804 
+ GUESSED vdw of  C3' in  DG F 804  =  1.80
+ NON-STANDARD atom.| O3'| in residue>  DG F 804 
+ GUESSED vdw of  O3' in  DG F 804  =  1.40
+ NON-STANDARD atom.| C2'| in residue>  DG F 804 
+ GUESSED vdw of  C2' in  DG F 804  =  1.80
+ NON-STANDARD atom.| C1'| in residue>  DG F 804 
+ GUESSED vdw of  C1' in  DG F 804  =  1.80
+ UNKNOWN residue type.............>  DT F 805 
+ NON-STANDARD atom.| P  | in residue>  DT F 805 
+ ASSUMED vdw of  P   in  DT F 805  =  1.90 (same as   A)
+ NON-STANDARD atom.| OP1| in residue>  DT F 805 
+ GUESSED vdw of  OP1 in  DT F 805  =  1.40
+ NON-STANDARD atom.| OP2| in residue>  DT F 805 
+ GUESSED vdw of  OP2 in  DT F 805  =  1.40
+ NON-STANDARD atom.| O5'| in residue>  DT F 805 
+ GUESSED vdw of  O5' in  DT F 805  =  1.40
+ NON-STANDARD atom.| C5'| in residue>  DT F 805 
+ GUESSED vdw of  C5' in  DT F 805  =  1.80
+ NON-STANDARD atom.| C4'| in residue>  DT F 805 
+ GUESSED vdw of  C4' in  DT F 805  =  1.80
+ NON-STANDARD atom.| O4'| in residue>  DT F 805 
+ GUESSED vdw of  O4' in  DT F 805  =  1.40
+ NON-STANDARD atom.| C3'| in residue>  DT F 805 
+ GUESSED vdw of  C3' in  DT F 805  =  1.80
+ NON-STANDARD atom.| O3'| in residue>  DT F 805 
+ GUESSED vdw of  O3' in  DT F 805  =  1.40
+ NON-STANDARD atom.| C2'| in residue>  DT F 805 
+ GUESSED vdw of  C2' in  DT F 805  =  1.80
+ NON-STANDARD atom.| C1'| in residue>  DT F 805 
+ GUESSED vdw of  C1' in  DT F 805  =  1.80
+ NON-STANDARD atom.| N1 | in residue>  DT F 805 
+ ASSUMED vdw of  N1  in  DT F 805  =  1.60 (same as   A)
+ NON-STANDARD atom.| C2 | in residue>  DT F 805 
+ ASSUMED vdw of  C2  in  DT F 805  =  1.80 (same as   A)
+ NON-STANDARD atom.| O2 | in residue>  DT F 805 
+ ASSUMED vdw of  O2  in  DT F 805  =  1.40 (same as   C)
+ NON-STANDARD atom.| N3 | in residue>  DT F 805 
+ ASSUMED vdw of  N3  in  DT F 805  =  1.60 (same as   A)
+ NON-STANDARD atom.| C4 | in residue>  DT F 805 
+ ASSUMED vdw of  C4  in  DT F 805  =  1.80 (same as   A)
+ NON-STANDARD atom.| O4 | in residue>  DT F 805 
+ ASSUMED vdw of  O4  in  DT F 805  =  1.40 (same as   T)
+ NON-STANDARD atom.| C5 | in residue>  DT F 805 
+ ASSUMED vdw of  C5  in  DT F 805  =  1.80 (same as   A)
+ NON-STANDARD atom.| C7 | in residue>  DT F 805 
+ GUESSED vdw of  C7  in  DT F 805  =  1.80
+ NON-STANDARD atom.| C6 | in residue>  DT F 805 
+ ASSUMED vdw of  C6  in  DT F 805  =  1.80 (same as   A)
+ UNKNOWN residue type.............>  DT F 806 
+ NON-STANDARD atom.| P  | in residue>  DT F 806 
+ ASSUMED vdw of  P   in  DT F 806  =  1.90 (same as   A)
+ NON-STANDARD atom.| OP1| in residue>  DT F 806 
+ GUESSED vdw of  OP1 in  DT F 806  =  1.40
+ NON-STANDARD atom.| OP2| in residue>  DT F 806 
+ GUESSED vdw of  OP2 in  DT F 806  =  1.40
+ NON-STANDARD atom.| O5'| in residue>  DT F 806 
+ GUESSED vdw of  O5' in  DT F 806  =  1.40
+ NON-STANDARD atom.| C5'| in residue>  DT F 806 
+ GUESSED vdw of  C5' in  DT F 806  =  1.80
+ NON-STANDARD atom.| C4'| in residue>  DT F 806 
+ GUESSED vdw of  C4' in  DT F 806  =  1.80
+ NON-STANDARD atom.| O4'| in residue>  DT F 806 
+ GUESSED vdw of  O4' in  DT F 806  =  1.40
+ NON-STANDARD atom.| C3'| in residue>  DT F 806 
+ GUESSED vdw of  C3' in  DT F 806  =  1.80
+ NON-STANDARD atom.| O3'| in residue>  DT F 806 
+ GUESSED vdw of  O3' in  DT F 806  =  1.40
+ NON-STANDARD atom.| C2'| in residue>  DT F 806 
+ GUESSED vdw of  C2' in  DT F 806  =  1.80
+ NON-STANDARD atom.| C1'| in residue>  DT F 806 
+ GUESSED vdw of  C1' in  DT F 806  =  1.80
+ NON-STANDARD atom.| N1 | in residue>  DT F 806 
+ ASSUMED vdw of  N1  in  DT F 806  =  1.60 (same as   A)
+ NON-STANDARD atom.| C2 | in residue>  DT F 806 
+ ASSUMED vdw of  C2  in  DT F 806  =  1.80 (same as   A)
+ NON-STANDARD atom.| O2 | in residue>  DT F 806 
+ ASSUMED vdw of  O2  in  DT F 806  =  1.40 (same as   C)
+ NON-STANDARD atom.| N3 | in residue>  DT F 806 
+ ASSUMED vdw of  N3  in  DT F 806  =  1.60 (same as   A)
+ NON-STANDARD atom.| C4 | in residue>  DT F 806 
+ ASSUMED vdw of  C4  in  DT F 806  =  1.80 (same as   A)
+ NON-STANDARD atom.| O4 | in residue>  DT F 806 
+ ASSUMED vdw of  O4  in  DT F 806  =  1.40 (same as   T)
+ NON-STANDARD atom.| C5 | in residue>  DT F 806 
+ ASSUMED vdw of  C5  in  DT F 806  =  1.80 (same as   A)
+ NON-STANDARD atom.| C7 | in residue>  DT F 806 
+ GUESSED vdw of  C7  in  DT F 806  =  1.80
+ NON-STANDARD atom.| C6 | in residue>  DT F 806 
+ ASSUMED vdw of  C6  in  DT F 806  =  1.80 (same as   A)
+ ADDED VDW RADII
+ CHAINS       1
+ RESIDUES     3
+ ATOMS       51
+ SOLVA: PROGRAM ENDS CORRECTLY
+ CALCULATED ATOMIC ACCESSIBILITES
+ RELATIVE (STANDARD) ACCESSIBILITIES READFOR  20 AMINO ACIDS
+ SUMMED ACCESSIBILITIES OVER RESIDUES

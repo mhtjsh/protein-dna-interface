@@ -1,0 +1,9 @@
+Interface Properties,Value,Notes
+Total Interface Atoms,502,Count atoms with ΔASA > 0
+Total Interface Residues,129,Based on ΔASA at residue level
+Total Interface Area (Å²),4950.13,ΔASA sum
+Local Atomic Density,0.101,atoms / area
+Residue Propensity Score,N/A,Requires scoring table
+Fraction of Buried Atoms,1.0,ΔASA atoms / total atoms
+Fraction of Non-Polar Atoms,0.297,Use residue types
+Non-Polar Interface Area,1315.05,ΔASA only for non-polar residues
