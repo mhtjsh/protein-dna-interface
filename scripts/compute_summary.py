@@ -21,7 +21,7 @@ p.add_argument("--rsa-dir", default="rsa", help="Path to RSA directory containin
 p.add_argument("--out-dir", default="interface", help="Directory to write output CSVs")
 args = p.parse_args()
 
-pdb_id = args.pdb_id
+pdb_id = args.pdb_id.upper()
 rsa_dir = os.path.abspath(args.rsa_dir)
 out_dir = os.path.abspath(args.out_dir)
 
@@ -77,48 +77,66 @@ fraction_nonpolar = round(len(nonpolar_df) / total_atoms, 3) if total_atoms else
 nonpolar_area     = round(nonpolar_df['delta'].sum(), 2)
 
 # ----------------------
-# 5. Compute residue propensity (log-weighted per-structure)
+# 5. Build residue background from RSA
 # ----------------------
+background_csv = os.path.join(rsa_dir, f"{pdb_id}_residue_background.csv")
 
-# Parse .rsa residues (surface background)
-rsa_path = os.path.join(rsa_dir, f"{pdb_id}.rsa")
-rsa_residues = []
-if not os.path.exists(rsa_path):
-    raise FileNotFoundError(f"Missing RSA file: {rsa_path}")
-with open(rsa_path) as f:
-    for line in f:
-        if line.lstrip().startswith("RES"):
-            parts = line.split()
-            if len(parts) >= 4:
-                rsa_residues.append(parts[3])
+if not os.path.exists(background_csv):
+    print("🔄 Building residue background from .rsa files...")
+    all_rsa_residues = []
+    for file in glob.glob(os.path.join(rsa_dir, "*.rsa")):
+        with open(file) as f:
+            for line in f:
+                parts = line.split()
+                if len(parts) >= 4 and parts[0] == "RES":
+                    resname = parts[1].upper()
+                    if resname in AMINO_ACIDS:
+                        all_rsa_residues.append(resname)
+    surface_counts_all = {aa: all_rsa_residues.count(aa) for aa in AMINO_ACIDS}
+    total_res = len(all_rsa_residues)
+    background_freqs = {
+        aa: surface_counts_all[aa] / total_res if total_res > 0 else 0
+        for aa in AMINO_ACIDS
+    }
+    pd.DataFrame(list(background_freqs.items()), columns=["Residue", "Frequency"]).to_csv(background_csv, index=False)
+    print(f"✅ Background table saved to {background_csv} with {total_res} residues.")
 
-# Frequency on surface and interface
+# Load background frequencies
+bg_df = pd.read_csv(background_csv)
+background_freqs = dict(zip(bg_df["Residue"], bg_df["Frequency"]))
+
+# ----------------------
+# 6. Compute residue propensity
+# ----------------------
 residue_list_int = df['resname'].tolist()
 interface_counts = {aa: residue_list_int.count(aa) for aa in AMINO_ACIDS}
-surface_counts   = {aa: rsa_residues.count(aa) for aa in AMINO_ACIDS}
+total_int_res = len(residue_list_int)
 
-# Compute weighted log-propensity
 log_weighted_values = []
+propensity_scores = {}
+
 for aa in AMINO_ACIDS:
     freq_int = interface_counts[aa]
-    freq_surf = surface_counts[aa]
+    freq_bg = background_freqs.get(aa, 0)
 
-    if freq_surf == 0 or freq_int == 0:
+    if freq_bg == 0 or freq_int == 0:
+        prop_score = 0
         log_weighted = 0
     else:
-        prop_score = (freq_int / len(residue_list_int)) / (freq_surf / len(rsa_residues))
-        log_weighted = math.log(prop_score) * freq_int
+        prop_score = (freq_int / total_int_res) / freq_bg
+        log_val = math.log(prop_score)
+        log_weighted = max(log_val * freq_int, 0)  # avoid negatives
 
+    propensity_scores[aa] = round(prop_score, 3)
     log_weighted_values.append(log_weighted)
 
-# Final residue propensity value
 log_weighted_propensity_score = round(sum(log_weighted_values), 3)
+
 # ----------------------
-# 6. Save summary + propensities
+# 7. Save summary and propensity table
 # ----------------------
 os.makedirs(out_dir, exist_ok=True)
 
-# Interface summary table
 summary = pd.DataFrame({
     'Interface Properties': [
         'Total Interface Atoms',
@@ -145,7 +163,7 @@ summary = pd.DataFrame({
         'Based on ΔASA at residue level',
         'ΔASA sum',
         'atoms / area',
-        'log-weighted: log(freq_int/freq_surf) * count',
+        'log-weighted: log(freq_int/freq_bg) * count, clamped ≥ 0',
         'ΔASA atoms / total atoms',
         'Use residue types',
         'ΔASA only for non-polar residues'
@@ -156,20 +174,10 @@ summary_out = os.path.join(out_dir, f"{pdb_id}_interface_summary.csv")
 summary.to_csv(summary_out, index=False)
 print(f"✅ Wrote summary → {summary_out}")
 
-# Compute and write per-residue propensities
-propensity_scores = {}
-for aa in AMINO_ACIDS:
-    if surface_counts[aa] > 0:
-        prop = (interface_counts[aa] / len(residue_list_int)) / (surface_counts[aa] / len(rsa_residues))
-        propensity_scores[aa] = round(prop, 3)
-    else:
-        propensity_scores[aa] = 0.0
-
+# Write per-residue propensity table
 prop_df = pd.DataFrame(list(propensity_scores.items()), columns=["Residue", "Propensity"])
 prop_df.sort_values(by="Propensity", ascending=False, inplace=True)
-
 prop_out = os.path.join(out_dir, f"{pdb_id}_residue_propensity.csv")
 prop_df.to_csv(prop_out, index=False)
 print(f"✅ Wrote residue propensity table → {prop_out}")
-print(f"Parsed {len(rsa_residues)} surface residues from {rsa_path}")
-
+print(f"Parsed {total_int_res} interface residues and loaded background from {background_csv}")
