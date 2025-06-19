@@ -1,0 +1,11 @@
+REM  Relative accessibilites read from external file "/home/sdlab/naccess/Naccess/standard.data"
+REM  File of summed (Sum) and % (per.) accessibilities for 
+REM RES _ NUM      All-atoms   Total-Side   Main-Chain    Non-polar    All polar
+REM                ABS   REL    ABS   REL    ABS   REL    ABS   REL    ABS   REL
+RES  DG D 804   251.96 -99.9 218.89 -99.9  33.07 -99.9 147.10 -99.9 104.87 -99.9
+RES  DT D 805   301.16 -99.9 293.55 -99.9   7.61 -99.9 129.47 -99.9 171.69 -99.9
+RES  DT D 806   355.91 -99.9 347.17 -99.9   8.74 -99.9 170.23 -99.9 185.68 -99.9
+END  Absolute sums over single chains surface 
+CHAIN  1 D      909.0        859.6         49.4        446.8        462.2
+END  Absolute sums over all chains 
+TOTAL           909.0        859.6         49.4        446.8        462.2

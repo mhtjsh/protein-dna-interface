@@ -1,0 +1,773 @@
+ ACCALL - Accessibility calculations
+ MAX RESIDUES     8000
+ MAX ATOMS/RES     100
+ PDB FILE INPUT split_chains/1RM1_D.pdb
+ PROBE SIZE       1.40
+ Z-SLICE WIDTH   0.050
+ VDW RADII FILE /home/sdlab/naccess/Naccess/vdw.radii
+ EXCL HETATOMS
+ EXCL HYDROGENS
+ EXCL WATERS
+ READVDW  32 residues input
+ UNKNOWN residue type.............>  DA D   1 
+ NON-STANDARD atom.| O5'| in residue>  DA D   1 
+ GUESSED vdw of  O5' in  DA D   1  =  1.40
+ NON-STANDARD atom.| C5'| in residue>  DA D   1 
+ GUESSED vdw of  C5' in  DA D   1  =  1.80
+ NON-STANDARD atom.| C4'| in residue>  DA D   1 
+ GUESSED vdw of  C4' in  DA D   1  =  1.80
+ NON-STANDARD atom.| O4'| in residue>  DA D   1 
+ GUESSED vdw of  O4' in  DA D   1  =  1.40
+ NON-STANDARD atom.| C3'| in residue>  DA D   1 
+ GUESSED vdw of  C3' in  DA D   1  =  1.80
+ NON-STANDARD atom.| O3'| in residue>  DA D   1 
+ GUESSED vdw of  O3' in  DA D   1  =  1.40
+ NON-STANDARD atom.| C2'| in residue>  DA D   1 
+ GUESSED vdw of  C2' in  DA D   1  =  1.80
+ NON-STANDARD atom.| C1'| in residue>  DA D   1 
+ GUESSED vdw of  C1' in  DA D   1  =  1.80
+ NON-STANDARD atom.| N9 | in residue>  DA D   1 
+ ASSUMED vdw of  N9  in  DA D   1  =  1.60 (same as   A)
+ NON-STANDARD atom.| C8 | in residue>  DA D   1 
+ ASSUMED vdw of  C8  in  DA D   1  =  1.80 (same as   A)
+ NON-STANDARD atom.| N7 | in residue>  DA D   1 
+ ASSUMED vdw of  N7  in  DA D   1  =  1.60 (same as   A)
+ NON-STANDARD atom.| C5 | in residue>  DA D   1 
+ ASSUMED vdw of  C5  in  DA D   1  =  1.80 (same as   A)
+ NON-STANDARD atom.| C6 | in residue>  DA D   1 
+ ASSUMED vdw of  C6  in  DA D   1  =  1.80 (same as   A)
+ NON-STANDARD atom.| N6 | in residue>  DA D   1 
+ ASSUMED vdw of  N6  in  DA D   1  =  1.60 (same as   A)
+ NON-STANDARD atom.| N1 | in residue>  DA D   1 
+ ASSUMED vdw of  N1  in  DA D   1  =  1.60 (same as   A)
+ NON-STANDARD atom.| C2 | in residue>  DA D   1 
+ ASSUMED vdw of  C2  in  DA D   1  =  1.80 (same as   A)
+ NON-STANDARD atom.| N3 | in residue>  DA D   1 
+ ASSUMED vdw of  N3  in  DA D   1  =  1.60 (same as   A)
+ NON-STANDARD atom.| C4 | in residue>  DA D   1 
+ ASSUMED vdw of  C4  in  DA D   1  =  1.80 (same as   A)
+ UNKNOWN residue type.............>  DT D   2 
+ NON-STANDARD atom.| P  | in residue>  DT D   2 
+ ASSUMED vdw of  P   in  DT D   2  =  1.90 (same as   A)
+ NON-STANDARD atom.| OP1| in residue>  DT D   2 
+ GUESSED vdw of  OP1 in  DT D   2  =  1.40
+ NON-STANDARD atom.| OP2| in residue>  DT D   2 
+ GUESSED vdw of  OP2 in  DT D   2  =  1.40
+ NON-STANDARD atom.| O5'| in residue>  DT D   2 
+ GUESSED vdw of  O5' in  DT D   2  =  1.40
+ NON-STANDARD atom.| C5'| in residue>  DT D   2 
+ GUESSED vdw of  C5' in  DT D   2  =  1.80
+ NON-STANDARD atom.| C4'| in residue>  DT D   2 
+ GUESSED vdw of  C4' in  DT D   2  =  1.80
+ NON-STANDARD atom.| O4'| in residue>  DT D   2 
+ GUESSED vdw of  O4' in  DT D   2  =  1.40
+ NON-STANDARD atom.| C3'| in residue>  DT D   2 
+ GUESSED vdw of  C3' in  DT D   2  =  1.80
+ NON-STANDARD atom.| O3'| in residue>  DT D   2 
+ GUESSED vdw of  O3' in  DT D   2  =  1.40
+ NON-STANDARD atom.| C2'| in residue>  DT D   2 
+ GUESSED vdw of  C2' in  DT D   2  =  1.80
+ NON-STANDARD atom.| C1'| in residue>  DT D   2 
+ GUESSED vdw of  C1' in  DT D   2  =  1.80
+ NON-STANDARD atom.| N1 | in residue>  DT D   2 
+ ASSUMED vdw of  N1  in  DT D   2  =  1.60 (same as   A)
+ NON-STANDARD atom.| C2 | in residue>  DT D   2 
+ ASSUMED vdw of  C2  in  DT D   2  =  1.80 (same as   A)
+ NON-STANDARD atom.| O2 | in residue>  DT D   2 
+ ASSUMED vdw of  O2  in  DT D   2  =  1.40 (same as   C)
+ NON-STANDARD atom.| N3 | in residue>  DT D   2 
+ ASSUMED vdw of  N3  in  DT D   2  =  1.60 (same as   A)
+ NON-STANDARD atom.| C4 | in residue>  DT D   2 
+ ASSUMED vdw of  C4  in  DT D   2  =  1.80 (same as   A)
+ NON-STANDARD atom.| O4 | in residue>  DT D   2 
+ ASSUMED vdw of  O4  in  DT D   2  =  1.40 (same as   T)
+ NON-STANDARD atom.| C5 | in residue>  DT D   2 
+ ASSUMED vdw of  C5  in  DT D   2  =  1.80 (same as   A)
+ NON-STANDARD atom.| C7 | in residue>  DT D   2 
+ GUESSED vdw of  C7  in  DT D   2  =  1.80
+ NON-STANDARD atom.| C6 | in residue>  DT D   2 
+ ASSUMED vdw of  C6  in  DT D   2  =  1.80 (same as   A)
+ UNKNOWN residue type.............>  DC D   3 
+ NON-STANDARD atom.| P  | in residue>  DC D   3 
+ ASSUMED vdw of  P   in  DC D   3  =  1.90 (same as   A)
+ NON-STANDARD atom.| OP1| in residue>  DC D   3 
+ GUESSED vdw of  OP1 in  DC D   3  =  1.40
+ NON-STANDARD atom.| OP2| in residue>  DC D   3 
+ GUESSED vdw of  OP2 in  DC D   3  =  1.40
+ NON-STANDARD atom.| O5'| in residue>  DC D   3 
+ GUESSED vdw of  O5' in  DC D   3  =  1.40
+ NON-STANDARD atom.| C5'| in residue>  DC D   3 
+ GUESSED vdw of  C5' in  DC D   3  =  1.80
+ NON-STANDARD atom.| C4'| in residue>  DC D   3 
+ GUESSED vdw of  C4' in  DC D   3  =  1.80
+ NON-STANDARD atom.| O4'| in residue>  DC D   3 
+ GUESSED vdw of  O4' in  DC D   3  =  1.40
+ NON-STANDARD atom.| C3'| in residue>  DC D   3 
+ GUESSED vdw of  C3' in  DC D   3  =  1.80
+ NON-STANDARD atom.| O3'| in residue>  DC D   3 
+ GUESSED vdw of  O3' in  DC D   3  =  1.40
+ NON-STANDARD atom.| C2'| in residue>  DC D   3 
+ GUESSED vdw of  C2' in  DC D   3  =  1.80
+ NON-STANDARD atom.| C1'| in residue>  DC D   3 
+ GUESSED vdw of  C1' in  DC D   3  =  1.80
+ NON-STANDARD atom.| N1 | in residue>  DC D   3 
+ ASSUMED vdw of  N1  in  DC D   3  =  1.60 (same as   A)
+ NON-STANDARD atom.| C2 | in residue>  DC D   3 
+ ASSUMED vdw of  C2  in  DC D   3  =  1.80 (same as   A)
+ NON-STANDARD atom.| O2 | in residue>  DC D   3 
+ ASSUMED vdw of  O2  in  DC D   3  =  1.40 (same as   C)
+ NON-STANDARD atom.| N3 | in residue>  DC D   3 
+ ASSUMED vdw of  N3  in  DC D   3  =  1.60 (same as   A)
+ NON-STANDARD atom.| C4 | in residue>  DC D   3 
+ ASSUMED vdw of  C4  in  DC D   3  =  1.80 (same as   A)
+ NON-STANDARD atom.| N4 | in residue>  DC D   3 
+ ASSUMED vdw of  N4  in  DC D   3  =  1.60 (same as   C)
+ NON-STANDARD atom.| C5 | in residue>  DC D   3 
+ ASSUMED vdw of  C5  in  DC D   3  =  1.80 (same as   A)
+ NON-STANDARD atom.| C6 | in residue>  DC D   3 
+ ASSUMED vdw of  C6  in  DC D   3  =  1.80 (same as   A)
+ UNKNOWN residue type.............>  DG D   4 
+ NON-STANDARD atom.| P  | in residue>  DG D   4 
+ ASSUMED vdw of  P   in  DG D   4  =  1.90 (same as   A)
+ NON-STANDARD atom.| OP1| in residue>  DG D   4 
+ GUESSED vdw of  OP1 in  DG D   4  =  1.40
+ NON-STANDARD atom.| OP2| in residue>  DG D   4 
+ GUESSED vdw of  OP2 in  DG D   4  =  1.40
+ NON-STANDARD atom.| O5'| in residue>  DG D   4 
+ GUESSED vdw of  O5' in  DG D   4  =  1.40
+ NON-STANDARD atom.| C5'| in residue>  DG D   4 
+ GUESSED vdw of  C5' in  DG D   4  =  1.80
+ NON-STANDARD atom.| C4'| in residue>  DG D   4 
+ GUESSED vdw of  C4' in  DG D   4  =  1.80
+ NON-STANDARD atom.| O4'| in residue>  DG D   4 
+ GUESSED vdw of  O4' in  DG D   4  =  1.40
+ NON-STANDARD atom.| C3'| in residue>  DG D   4 
+ GUESSED vdw of  C3' in  DG D   4  =  1.80
+ NON-STANDARD atom.| O3'| in residue>  DG D   4 
+ GUESSED vdw of  O3' in  DG D   4  =  1.40
+ NON-STANDARD atom.| C2'| in residue>  DG D   4 
+ GUESSED vdw of  C2' in  DG D   4  =  1.80
+ NON-STANDARD atom.| C1'| in residue>  DG D   4 
+ GUESSED vdw of  C1' in  DG D   4  =  1.80
+ NON-STANDARD atom.| N9 | in residue>  DG D   4 
+ ASSUMED vdw of  N9  in  DG D   4  =  1.60 (same as   A)
+ NON-STANDARD atom.| C8 | in residue>  DG D   4 
+ ASSUMED vdw of  C8  in  DG D   4  =  1.80 (same as   A)
+ NON-STANDARD atom.| N7 | in residue>  DG D   4 
+ ASSUMED vdw of  N7  in  DG D   4  =  1.60 (same as   A)
+ NON-STANDARD atom.| C5 | in residue>  DG D   4 
+ ASSUMED vdw of  C5  in  DG D   4  =  1.80 (same as   A)
+ NON-STANDARD atom.| C6 | in residue>  DG D   4 
+ ASSUMED vdw of  C6  in  DG D   4  =  1.80 (same as   A)
+ NON-STANDARD atom.| O6 | in residue>  DG D   4 
+ ASSUMED vdw of  O6  in  DG D   4  =  1.40 (same as   G)
+ NON-STANDARD atom.| N1 | in residue>  DG D   4 
+ ASSUMED vdw of  N1  in  DG D   4  =  1.60 (same as   A)
+ NON-STANDARD atom.| C2 | in residue>  DG D   4 
+ ASSUMED vdw of  C2  in  DG D   4  =  1.80 (same as   A)
+ NON-STANDARD atom.| N2 | in residue>  DG D   4 
+ ASSUMED vdw of  N2  in  DG D   4  =  1.60 (same as   G)
+ NON-STANDARD atom.| N3 | in residue>  DG D   4 
+ ASSUMED vdw of  N3  in  DG D   4  =  1.60 (same as   A)
+ NON-STANDARD atom.| C4 | in residue>  DG D   4 
+ ASSUMED vdw of  C4  in  DG D   4  =  1.80 (same as   A)
+ UNKNOWN residue type.............>  DA D   5 
+ NON-STANDARD atom.| P  | in residue>  DA D   5 
+ ASSUMED vdw of  P   in  DA D   5  =  1.90 (same as   A)
+ NON-STANDARD atom.| OP1| in residue>  DA D   5 
+ GUESSED vdw of  OP1 in  DA D   5  =  1.40
+ NON-STANDARD atom.| OP2| in residue>  DA D   5 
+ GUESSED vdw of  OP2 in  DA D   5  =  1.40
+ NON-STANDARD atom.| O5'| in residue>  DA D   5 
+ GUESSED vdw of  O5' in  DA D   5  =  1.40
+ NON-STANDARD atom.| C5'| in residue>  DA D   5 
+ GUESSED vdw of  C5' in  DA D   5  =  1.80
+ NON-STANDARD atom.| C4'| in residue>  DA D   5 
+ GUESSED vdw of  C4' in  DA D   5  =  1.80
+ NON-STANDARD atom.| O4'| in residue>  DA D   5 
+ GUESSED vdw of  O4' in  DA D   5  =  1.40
+ NON-STANDARD atom.| C3'| in residue>  DA D   5 
+ GUESSED vdw of  C3' in  DA D   5  =  1.80
+ NON-STANDARD atom.| O3'| in residue>  DA D   5 
+ GUESSED vdw of  O3' in  DA D   5  =  1.40
+ NON-STANDARD atom.| C2'| in residue>  DA D   5 
+ GUESSED vdw of  C2' in  DA D   5  =  1.80
+ NON-STANDARD atom.| C1'| in residue>  DA D   5 
+ GUESSED vdw of  C1' in  DA D   5  =  1.80
+ NON-STANDARD atom.| N9 | in residue>  DA D   5 
+ ASSUMED vdw of  N9  in  DA D   5  =  1.60 (same as   A)
+ NON-STANDARD atom.| C8 | in residue>  DA D   5 
+ ASSUMED vdw of  C8  in  DA D   5  =  1.80 (same as   A)
+ NON-STANDARD atom.| N7 | in residue>  DA D   5 
+ ASSUMED vdw of  N7  in  DA D   5  =  1.60 (same as   A)
+ NON-STANDARD atom.| C5 | in residue>  DA D   5 
+ ASSUMED vdw of  C5  in  DA D   5  =  1.80 (same as   A)
+ NON-STANDARD atom.| C6 | in residue>  DA D   5 
+ ASSUMED vdw of  C6  in  DA D   5  =  1.80 (same as   A)
+ NON-STANDARD atom.| N6 | in residue>  DA D   5 
+ ASSUMED vdw of  N6  in  DA D   5  =  1.60 (same as   A)
+ NON-STANDARD atom.| N1 | in residue>  DA D   5 
+ ASSUMED vdw of  N1  in  DA D   5  =  1.60 (same as   A)
+ NON-STANDARD atom.| C2 | in residue>  DA D   5 
+ ASSUMED vdw of  C2  in  DA D   5  =  1.80 (same as   A)
+ NON-STANDARD atom.| N3 | in residue>  DA D   5 
+ ASSUMED vdw of  N3  in  DA D   5  =  1.60 (same as   A)
+ NON-STANDARD atom.| C4 | in residue>  DA D   5 
+ ASSUMED vdw of  C4  in  DA D   5  =  1.80 (same as   A)
+ UNKNOWN residue type.............>  DT D   6 
+ NON-STANDARD atom.| P  | in residue>  DT D   6 
+ ASSUMED vdw of  P   in  DT D   6  =  1.90 (same as   A)
+ NON-STANDARD atom.| OP1| in residue>  DT D   6 
+ GUESSED vdw of  OP1 in  DT D   6  =  1.40
+ NON-STANDARD atom.| OP2| in residue>  DT D   6 
+ GUESSED vdw of  OP2 in  DT D   6  =  1.40
+ NON-STANDARD atom.| O5'| in residue>  DT D   6 
+ GUESSED vdw of  O5' in  DT D   6  =  1.40
+ NON-STANDARD atom.| C5'| in residue>  DT D   6 
+ GUESSED vdw of  C5' in  DT D   6  =  1.80
+ NON-STANDARD atom.| C4'| in residue>  DT D   6 
+ GUESSED vdw of  C4' in  DT D   6  =  1.80
+ NON-STANDARD atom.| O4'| in residue>  DT D   6 
+ GUESSED vdw of  O4' in  DT D   6  =  1.40
+ NON-STANDARD atom.| C3'| in residue>  DT D   6 
+ GUESSED vdw of  C3' in  DT D   6  =  1.80
+ NON-STANDARD atom.| O3'| in residue>  DT D   6 
+ GUESSED vdw of  O3' in  DT D   6  =  1.40
+ NON-STANDARD atom.| C2'| in residue>  DT D   6 
+ GUESSED vdw of  C2' in  DT D   6  =  1.80
+ NON-STANDARD atom.| C1'| in residue>  DT D   6 
+ GUESSED vdw of  C1' in  DT D   6  =  1.80
+ NON-STANDARD atom.| N1 | in residue>  DT D   6 
+ ASSUMED vdw of  N1  in  DT D   6  =  1.60 (same as   A)
+ NON-STANDARD atom.| C2 | in residue>  DT D   6 
+ ASSUMED vdw of  C2  in  DT D   6  =  1.80 (same as   A)
+ NON-STANDARD atom.| O2 | in residue>  DT D   6 
+ ASSUMED vdw of  O2  in  DT D   6  =  1.40 (same as   C)
+ NON-STANDARD atom.| N3 | in residue>  DT D   6 
+ ASSUMED vdw of  N3  in  DT D   6  =  1.60 (same as   A)
+ NON-STANDARD atom.| C4 | in residue>  DT D   6 
+ ASSUMED vdw of  C4  in  DT D   6  =  1.80 (same as   A)
+ NON-STANDARD atom.| O4 | in residue>  DT D   6 
+ ASSUMED vdw of  O4  in  DT D   6  =  1.40 (same as   T)
+ NON-STANDARD atom.| C5 | in residue>  DT D   6 
+ ASSUMED vdw of  C5  in  DT D   6  =  1.80 (same as   A)
+ NON-STANDARD atom.| C7 | in residue>  DT D   6 
+ GUESSED vdw of  C7  in  DT D   6  =  1.80
+ NON-STANDARD atom.| C6 | in residue>  DT D   6 
+ ASSUMED vdw of  C6  in  DT D   6  =  1.80 (same as   A)
+ UNKNOWN residue type.............>  DC D   7 
+ NON-STANDARD atom.| P  | in residue>  DC D   7 
+ ASSUMED vdw of  P   in  DC D   7  =  1.90 (same as   A)
+ NON-STANDARD atom.| OP1| in residue>  DC D   7 
+ GUESSED vdw of  OP1 in  DC D   7  =  1.40
+ NON-STANDARD atom.| OP2| in residue>  DC D   7 
+ GUESSED vdw of  OP2 in  DC D   7  =  1.40
+ NON-STANDARD atom.| O5'| in residue>  DC D   7 
+ GUESSED vdw of  O5' in  DC D   7  =  1.40
+ NON-STANDARD atom.| C5'| in residue>  DC D   7 
+ GUESSED vdw of  C5' in  DC D   7  =  1.80
+ NON-STANDARD atom.| C4'| in residue>  DC D   7 
+ GUESSED vdw of  C4' in  DC D   7  =  1.80
+ NON-STANDARD atom.| O4'| in residue>  DC D   7 
+ GUESSED vdw of  O4' in  DC D   7  =  1.40
+ NON-STANDARD atom.| C3'| in residue>  DC D   7 
+ GUESSED vdw of  C3' in  DC D   7  =  1.80
+ NON-STANDARD atom.| O3'| in residue>  DC D   7 
+ GUESSED vdw of  O3' in  DC D   7  =  1.40
+ NON-STANDARD atom.| C2'| in residue>  DC D   7 
+ GUESSED vdw of  C2' in  DC D   7  =  1.80
+ NON-STANDARD atom.| C1'| in residue>  DC D   7 
+ GUESSED vdw of  C1' in  DC D   7  =  1.80
+ NON-STANDARD atom.| N1 | in residue>  DC D   7 
+ ASSUMED vdw of  N1  in  DC D   7  =  1.60 (same as   A)
+ NON-STANDARD atom.| C2 | in residue>  DC D   7 
+ ASSUMED vdw of  C2  in  DC D   7  =  1.80 (same as   A)
+ NON-STANDARD atom.| O2 | in residue>  DC D   7 
+ ASSUMED vdw of  O2  in  DC D   7  =  1.40 (same as   C)
+ NON-STANDARD atom.| N3 | in residue>  DC D   7 
+ ASSUMED vdw of  N3  in  DC D   7  =  1.60 (same as   A)
+ NON-STANDARD atom.| C4 | in residue>  DC D   7 
+ ASSUMED vdw of  C4  in  DC D   7  =  1.80 (same as   A)
+ NON-STANDARD atom.| N4 | in residue>  DC D   7 
+ ASSUMED vdw of  N4  in  DC D   7  =  1.60 (same as   C)
+ NON-STANDARD atom.| C5 | in residue>  DC D   7 
+ ASSUMED vdw of  C5  in  DC D   7  =  1.80 (same as   A)
+ NON-STANDARD atom.| C6 | in residue>  DC D   7 
+ ASSUMED vdw of  C6  in  DC D   7  =  1.80 (same as   A)
+ UNKNOWN residue type.............>  DG D   8 
+ NON-STANDARD atom.| P  | in residue>  DG D   8 
+ ASSUMED vdw of  P   in  DG D   8  =  1.90 (same as   A)
+ NON-STANDARD atom.| OP1| in residue>  DG D   8 
+ GUESSED vdw of  OP1 in  DG D   8  =  1.40
+ NON-STANDARD atom.| OP2| in residue>  DG D   8 
+ GUESSED vdw of  OP2 in  DG D   8  =  1.40
+ NON-STANDARD atom.| O5'| in residue>  DG D   8 
+ GUESSED vdw of  O5' in  DG D   8  =  1.40
+ NON-STANDARD atom.| C5'| in residue>  DG D   8 
+ GUESSED vdw of  C5' in  DG D   8  =  1.80
+ NON-STANDARD atom.| C4'| in residue>  DG D   8 
+ GUESSED vdw of  C4' in  DG D   8  =  1.80
+ NON-STANDARD atom.| O4'| in residue>  DG D   8 
+ GUESSED vdw of  O4' in  DG D   8  =  1.40
+ NON-STANDARD atom.| C3'| in residue>  DG D   8 
+ GUESSED vdw of  C3' in  DG D   8  =  1.80
+ NON-STANDARD atom.| O3'| in residue>  DG D   8 
+ GUESSED vdw of  O3' in  DG D   8  =  1.40
+ NON-STANDARD atom.| C2'| in residue>  DG D   8 
+ GUESSED vdw of  C2' in  DG D   8  =  1.80
+ NON-STANDARD atom.| C1'| in residue>  DG D   8 
+ GUESSED vdw of  C1' in  DG D   8  =  1.80
+ NON-STANDARD atom.| N9 | in residue>  DG D   8 
+ ASSUMED vdw of  N9  in  DG D   8  =  1.60 (same as   A)
+ NON-STANDARD atom.| C8 | in residue>  DG D   8 
+ ASSUMED vdw of  C8  in  DG D   8  =  1.80 (same as   A)
+ NON-STANDARD atom.| N7 | in residue>  DG D   8 
+ ASSUMED vdw of  N7  in  DG D   8  =  1.60 (same as   A)
+ NON-STANDARD atom.| C5 | in residue>  DG D   8 
+ ASSUMED vdw of  C5  in  DG D   8  =  1.80 (same as   A)
+ NON-STANDARD atom.| C6 | in residue>  DG D   8 
+ ASSUMED vdw of  C6  in  DG D   8  =  1.80 (same as   A)
+ NON-STANDARD atom.| O6 | in residue>  DG D   8 
+ ASSUMED vdw of  O6  in  DG D   8  =  1.40 (same as   G)
+ NON-STANDARD atom.| N1 | in residue>  DG D   8 
+ ASSUMED vdw of  N1  in  DG D   8  =  1.60 (same as   A)
+ NON-STANDARD atom.| C2 | in residue>  DG D   8 
+ ASSUMED vdw of  C2  in  DG D   8  =  1.80 (same as   A)
+ NON-STANDARD atom.| N2 | in residue>  DG D   8 
+ ASSUMED vdw of  N2  in  DG D   8  =  1.60 (same as   G)
+ NON-STANDARD atom.| N3 | in residue>  DG D   8 
+ ASSUMED vdw of  N3  in  DG D   8  =  1.60 (same as   A)
+ NON-STANDARD atom.| C4 | in residue>  DG D   8 
+ ASSUMED vdw of  C4  in  DG D   8  =  1.80 (same as   A)
+ UNKNOWN residue type.............>  DA D   9 
+ NON-STANDARD atom.| P  | in residue>  DA D   9 
+ ASSUMED vdw of  P   in  DA D   9  =  1.90 (same as   A)
+ NON-STANDARD atom.| OP1| in residue>  DA D   9 
+ GUESSED vdw of  OP1 in  DA D   9  =  1.40
+ NON-STANDARD atom.| OP2| in residue>  DA D   9 
+ GUESSED vdw of  OP2 in  DA D   9  =  1.40
+ NON-STANDARD atom.| O5'| in residue>  DA D   9 
+ GUESSED vdw of  O5' in  DA D   9  =  1.40
+ NON-STANDARD atom.| C5'| in residue>  DA D   9 
+ GUESSED vdw of  C5' in  DA D   9  =  1.80
+ NON-STANDARD atom.| C4'| in residue>  DA D   9 
+ GUESSED vdw of  C4' in  DA D   9  =  1.80
+ NON-STANDARD atom.| O4'| in residue>  DA D   9 
+ GUESSED vdw of  O4' in  DA D   9  =  1.40
+ NON-STANDARD atom.| C3'| in residue>  DA D   9 
+ GUESSED vdw of  C3' in  DA D   9  =  1.80
+ NON-STANDARD atom.| O3'| in residue>  DA D   9 
+ GUESSED vdw of  O3' in  DA D   9  =  1.40
+ NON-STANDARD atom.| C2'| in residue>  DA D   9 
+ GUESSED vdw of  C2' in  DA D   9  =  1.80
+ NON-STANDARD atom.| C1'| in residue>  DA D   9 
+ GUESSED vdw of  C1' in  DA D   9  =  1.80
+ NON-STANDARD atom.| N9 | in residue>  DA D   9 
+ ASSUMED vdw of  N9  in  DA D   9  =  1.60 (same as   A)
+ NON-STANDARD atom.| C8 | in residue>  DA D   9 
+ ASSUMED vdw of  C8  in  DA D   9  =  1.80 (same as   A)
+ NON-STANDARD atom.| N7 | in residue>  DA D   9 
+ ASSUMED vdw of  N7  in  DA D   9  =  1.60 (same as   A)
+ NON-STANDARD atom.| C5 | in residue>  DA D   9 
+ ASSUMED vdw of  C5  in  DA D   9  =  1.80 (same as   A)
+ NON-STANDARD atom.| C6 | in residue>  DA D   9 
+ ASSUMED vdw of  C6  in  DA D   9  =  1.80 (same as   A)
+ NON-STANDARD atom.| N6 | in residue>  DA D   9 
+ ASSUMED vdw of  N6  in  DA D   9  =  1.60 (same as   A)
+ NON-STANDARD atom.| N1 | in residue>  DA D   9 
+ ASSUMED vdw of  N1  in  DA D   9  =  1.60 (same as   A)
+ NON-STANDARD atom.| C2 | in residue>  DA D   9 
+ ASSUMED vdw of  C2  in  DA D   9  =  1.80 (same as   A)
+ NON-STANDARD atom.| N3 | in residue>  DA D   9 
+ ASSUMED vdw of  N3  in  DA D   9  =  1.60 (same as   A)
+ NON-STANDARD atom.| C4 | in residue>  DA D   9 
+ ASSUMED vdw of  C4  in  DA D   9  =  1.80 (same as   A)
+ UNKNOWN residue type.............>  DT D  10 
+ NON-STANDARD atom.| P  | in residue>  DT D  10 
+ ASSUMED vdw of  P   in  DT D  10  =  1.90 (same as   A)
+ NON-STANDARD atom.| OP1| in residue>  DT D  10 
+ GUESSED vdw of  OP1 in  DT D  10  =  1.40
+ NON-STANDARD atom.| OP2| in residue>  DT D  10 
+ GUESSED vdw of  OP2 in  DT D  10  =  1.40
+ NON-STANDARD atom.| O5'| in residue>  DT D  10 
+ GUESSED vdw of  O5' in  DT D  10  =  1.40
+ NON-STANDARD atom.| C5'| in residue>  DT D  10 
+ GUESSED vdw of  C5' in  DT D  10  =  1.80
+ NON-STANDARD atom.| C4'| in residue>  DT D  10 
+ GUESSED vdw of  C4' in  DT D  10  =  1.80
+ NON-STANDARD atom.| O4'| in residue>  DT D  10 
+ GUESSED vdw of  O4' in  DT D  10  =  1.40
+ NON-STANDARD atom.| C3'| in residue>  DT D  10 
+ GUESSED vdw of  C3' in  DT D  10  =  1.80
+ NON-STANDARD atom.| O3'| in residue>  DT D  10 
+ GUESSED vdw of  O3' in  DT D  10  =  1.40
+ NON-STANDARD atom.| C2'| in residue>  DT D  10 
+ GUESSED vdw of  C2' in  DT D  10  =  1.80
+ NON-STANDARD atom.| C1'| in residue>  DT D  10 
+ GUESSED vdw of  C1' in  DT D  10  =  1.80
+ NON-STANDARD atom.| N1 | in residue>  DT D  10 
+ ASSUMED vdw of  N1  in  DT D  10  =  1.60 (same as   A)
+ NON-STANDARD atom.| C2 | in residue>  DT D  10 
+ ASSUMED vdw of  C2  in  DT D  10  =  1.80 (same as   A)
+ NON-STANDARD atom.| O2 | in residue>  DT D  10 
+ ASSUMED vdw of  O2  in  DT D  10  =  1.40 (same as   C)
+ NON-STANDARD atom.| N3 | in residue>  DT D  10 
+ ASSUMED vdw of  N3  in  DT D  10  =  1.60 (same as   A)
+ NON-STANDARD atom.| C4 | in residue>  DT D  10 
+ ASSUMED vdw of  C4  in  DT D  10  =  1.80 (same as   A)
+ NON-STANDARD atom.| O4 | in residue>  DT D  10 
+ ASSUMED vdw of  O4  in  DT D  10  =  1.40 (same as   T)
+ NON-STANDARD atom.| C5 | in residue>  DT D  10 
+ ASSUMED vdw of  C5  in  DT D  10  =  1.80 (same as   A)
+ NON-STANDARD atom.| C7 | in residue>  DT D  10 
+ GUESSED vdw of  C7  in  DT D  10  =  1.80
+ NON-STANDARD atom.| C6 | in residue>  DT D  10 
+ ASSUMED vdw of  C6  in  DT D  10  =  1.80 (same as   A)
+ UNKNOWN residue type.............>  DA D  11 
+ NON-STANDARD atom.| P  | in residue>  DA D  11 
+ ASSUMED vdw of  P   in  DA D  11  =  1.90 (same as   A)
+ NON-STANDARD atom.| OP1| in residue>  DA D  11 
+ GUESSED vdw of  OP1 in  DA D  11  =  1.40
+ NON-STANDARD atom.| OP2| in residue>  DA D  11 
+ GUESSED vdw of  OP2 in  DA D  11  =  1.40
+ NON-STANDARD atom.| O5'| in residue>  DA D  11 
+ GUESSED vdw of  O5' in  DA D  11  =  1.40
+ NON-STANDARD atom.| C5'| in residue>  DA D  11 
+ GUESSED vdw of  C5' in  DA D  11  =  1.80
+ NON-STANDARD atom.| C4'| in residue>  DA D  11 
+ GUESSED vdw of  C4' in  DA D  11  =  1.80
+ NON-STANDARD atom.| O4'| in residue>  DA D  11 
+ GUESSED vdw of  O4' in  DA D  11  =  1.40
+ NON-STANDARD atom.| C3'| in residue>  DA D  11 
+ GUESSED vdw of  C3' in  DA D  11  =  1.80
+ NON-STANDARD atom.| O3'| in residue>  DA D  11 
+ GUESSED vdw of  O3' in  DA D  11  =  1.40
+ NON-STANDARD atom.| C2'| in residue>  DA D  11 
+ GUESSED vdw of  C2' in  DA D  11  =  1.80
+ NON-STANDARD atom.| C1'| in residue>  DA D  11 
+ GUESSED vdw of  C1' in  DA D  11  =  1.80
+ NON-STANDARD atom.| N9 | in residue>  DA D  11 
+ ASSUMED vdw of  N9  in  DA D  11  =  1.60 (same as   A)
+ NON-STANDARD atom.| C8 | in residue>  DA D  11 
+ ASSUMED vdw of  C8  in  DA D  11  =  1.80 (same as   A)
+ NON-STANDARD atom.| N7 | in residue>  DA D  11 
+ ASSUMED vdw of  N7  in  DA D  11  =  1.60 (same as   A)
+ NON-STANDARD atom.| C5 | in residue>  DA D  11 
+ ASSUMED vdw of  C5  in  DA D  11  =  1.80 (same as   A)
+ NON-STANDARD atom.| C6 | in residue>  DA D  11 
+ ASSUMED vdw of  C6  in  DA D  11  =  1.80 (same as   A)
+ NON-STANDARD atom.| N6 | in residue>  DA D  11 
+ ASSUMED vdw of  N6  in  DA D  11  =  1.60 (same as   A)
+ NON-STANDARD atom.| N1 | in residue>  DA D  11 
+ ASSUMED vdw of  N1  in  DA D  11  =  1.60 (same as   A)
+ NON-STANDARD atom.| C2 | in residue>  DA D  11 
+ ASSUMED vdw of  C2  in  DA D  11  =  1.80 (same as   A)
+ NON-STANDARD atom.| N3 | in residue>  DA D  11 
+ ASSUMED vdw of  N3  in  DA D  11  =  1.60 (same as   A)
+ NON-STANDARD atom.| C4 | in residue>  DA D  11 
+ ASSUMED vdw of  C4  in  DA D  11  =  1.80 (same as   A)
+ UNKNOWN residue type.............>  DT D  12 
+ NON-STANDARD atom.| P  | in residue>  DT D  12 
+ ASSUMED vdw of  P   in  DT D  12  =  1.90 (same as   A)
+ NON-STANDARD atom.| OP1| in residue>  DT D  12 
+ GUESSED vdw of  OP1 in  DT D  12  =  1.40
+ NON-STANDARD atom.| OP2| in residue>  DT D  12 
+ GUESSED vdw of  OP2 in  DT D  12  =  1.40
+ NON-STANDARD atom.| O5'| in residue>  DT D  12 
+ GUESSED vdw of  O5' in  DT D  12  =  1.40
+ NON-STANDARD atom.| C5'| in residue>  DT D  12 
+ GUESSED vdw of  C5' in  DT D  12  =  1.80
+ NON-STANDARD atom.| C4'| in residue>  DT D  12 
+ GUESSED vdw of  C4' in  DT D  12  =  1.80
+ NON-STANDARD atom.| O4'| in residue>  DT D  12 
+ GUESSED vdw of  O4' in  DT D  12  =  1.40
+ NON-STANDARD atom.| C3'| in residue>  DT D  12 
+ GUESSED vdw of  C3' in  DT D  12  =  1.80
+ NON-STANDARD atom.| O3'| in residue>  DT D  12 
+ GUESSED vdw of  O3' in  DT D  12  =  1.40
+ NON-STANDARD atom.| C2'| in residue>  DT D  12 
+ GUESSED vdw of  C2' in  DT D  12  =  1.80
+ NON-STANDARD atom.| C1'| in residue>  DT D  12 
+ GUESSED vdw of  C1' in  DT D  12  =  1.80
+ NON-STANDARD atom.| N1 | in residue>  DT D  12 
+ ASSUMED vdw of  N1  in  DT D  12  =  1.60 (same as   A)
+ NON-STANDARD atom.| C2 | in residue>  DT D  12 
+ ASSUMED vdw of  C2  in  DT D  12  =  1.80 (same as   A)
+ NON-STANDARD atom.| O2 | in residue>  DT D  12 
+ ASSUMED vdw of  O2  in  DT D  12  =  1.40 (same as   C)
+ NON-STANDARD atom.| N3 | in residue>  DT D  12 
+ ASSUMED vdw of  N3  in  DT D  12  =  1.60 (same as   A)
+ NON-STANDARD atom.| C4 | in residue>  DT D  12 
+ ASSUMED vdw of  C4  in  DT D  12  =  1.80 (same as   A)
+ NON-STANDARD atom.| O4 | in residue>  DT D  12 
+ ASSUMED vdw of  O4  in  DT D  12  =  1.40 (same as   T)
+ NON-STANDARD atom.| C5 | in residue>  DT D  12 
+ ASSUMED vdw of  C5  in  DT D  12  =  1.80 (same as   A)
+ NON-STANDARD atom.| C7 | in residue>  DT D  12 
+ GUESSED vdw of  C7  in  DT D  12  =  1.80
+ NON-STANDARD atom.| C6 | in residue>  DT D  12 
+ ASSUMED vdw of  C6  in  DT D  12  =  1.80 (same as   A)
+ UNKNOWN residue type.............>  DA D  13 
+ NON-STANDARD atom.| P  | in residue>  DA D  13 
+ ASSUMED vdw of  P   in  DA D  13  =  1.90 (same as   A)
+ NON-STANDARD atom.| OP1| in residue>  DA D  13 
+ GUESSED vdw of  OP1 in  DA D  13  =  1.40
+ NON-STANDARD atom.| OP2| in residue>  DA D  13 
+ GUESSED vdw of  OP2 in  DA D  13  =  1.40
+ NON-STANDARD atom.| O5'| in residue>  DA D  13 
+ GUESSED vdw of  O5' in  DA D  13  =  1.40
+ NON-STANDARD atom.| C5'| in residue>  DA D  13 
+ GUESSED vdw of  C5' in  DA D  13  =  1.80
+ NON-STANDARD atom.| C4'| in residue>  DA D  13 
+ GUESSED vdw of  C4' in  DA D  13  =  1.80
+ NON-STANDARD atom.| O4'| in residue>  DA D  13 
+ GUESSED vdw of  O4' in  DA D  13  =  1.40
+ NON-STANDARD atom.| C3'| in residue>  DA D  13 
+ GUESSED vdw of  C3' in  DA D  13  =  1.80
+ NON-STANDARD atom.| O3'| in residue>  DA D  13 
+ GUESSED vdw of  O3' in  DA D  13  =  1.40
+ NON-STANDARD atom.| C2'| in residue>  DA D  13 
+ GUESSED vdw of  C2' in  DA D  13  =  1.80
+ NON-STANDARD atom.| C1'| in residue>  DA D  13 
+ GUESSED vdw of  C1' in  DA D  13  =  1.80
+ NON-STANDARD atom.| N9 | in residue>  DA D  13 
+ ASSUMED vdw of  N9  in  DA D  13  =  1.60 (same as   A)
+ NON-STANDARD atom.| C8 | in residue>  DA D  13 
+ ASSUMED vdw of  C8  in  DA D  13  =  1.80 (same as   A)
+ NON-STANDARD atom.| N7 | in residue>  DA D  13 
+ ASSUMED vdw of  N7  in  DA D  13  =  1.60 (same as   A)
+ NON-STANDARD atom.| C5 | in residue>  DA D  13 
+ ASSUMED vdw of  C5  in  DA D  13  =  1.80 (same as   A)
+ NON-STANDARD atom.| C6 | in residue>  DA D  13 
+ ASSUMED vdw of  C6  in  DA D  13  =  1.80 (same as   A)
+ NON-STANDARD atom.| N6 | in residue>  DA D  13 
+ ASSUMED vdw of  N6  in  DA D  13  =  1.60 (same as   A)
+ NON-STANDARD atom.| N1 | in residue>  DA D  13 
+ ASSUMED vdw of  N1  in  DA D  13  =  1.60 (same as   A)
+ NON-STANDARD atom.| C2 | in residue>  DA D  13 
+ ASSUMED vdw of  C2  in  DA D  13  =  1.80 (same as   A)
+ NON-STANDARD atom.| N3 | in residue>  DA D  13 
+ ASSUMED vdw of  N3  in  DA D  13  =  1.60 (same as   A)
+ NON-STANDARD atom.| C4 | in residue>  DA D  13 
+ ASSUMED vdw of  C4  in  DA D  13  =  1.80 (same as   A)
+ UNKNOWN residue type.............>  DA D  14 
+ NON-STANDARD atom.| P  | in residue>  DA D  14 
+ ASSUMED vdw of  P   in  DA D  14  =  1.90 (same as   A)
+ NON-STANDARD atom.| OP1| in residue>  DA D  14 
+ GUESSED vdw of  OP1 in  DA D  14  =  1.40
+ NON-STANDARD atom.| OP2| in residue>  DA D  14 
+ GUESSED vdw of  OP2 in  DA D  14  =  1.40
+ NON-STANDARD atom.| O5'| in residue>  DA D  14 
+ GUESSED vdw of  O5' in  DA D  14  =  1.40
+ NON-STANDARD atom.| C5'| in residue>  DA D  14 
+ GUESSED vdw of  C5' in  DA D  14  =  1.80
+ NON-STANDARD atom.| C4'| in residue>  DA D  14 
+ GUESSED vdw of  C4' in  DA D  14  =  1.80
+ NON-STANDARD atom.| O4'| in residue>  DA D  14 
+ GUESSED vdw of  O4' in  DA D  14  =  1.40
+ NON-STANDARD atom.| C3'| in residue>  DA D  14 
+ GUESSED vdw of  C3' in  DA D  14  =  1.80
+ NON-STANDARD atom.| O3'| in residue>  DA D  14 
+ GUESSED vdw of  O3' in  DA D  14  =  1.40
+ NON-STANDARD atom.| C2'| in residue>  DA D  14 
+ GUESSED vdw of  C2' in  DA D  14  =  1.80
+ NON-STANDARD atom.| C1'| in residue>  DA D  14 
+ GUESSED vdw of  C1' in  DA D  14  =  1.80
+ NON-STANDARD atom.| N9 | in residue>  DA D  14 
+ ASSUMED vdw of  N9  in  DA D  14  =  1.60 (same as   A)
+ NON-STANDARD atom.| C8 | in residue>  DA D  14 
+ ASSUMED vdw of  C8  in  DA D  14  =  1.80 (same as   A)
+ NON-STANDARD atom.| N7 | in residue>  DA D  14 
+ ASSUMED vdw of  N7  in  DA D  14  =  1.60 (same as   A)
+ NON-STANDARD atom.| C5 | in residue>  DA D  14 
+ ASSUMED vdw of  C5  in  DA D  14  =  1.80 (same as   A)
+ NON-STANDARD atom.| C6 | in residue>  DA D  14 
+ ASSUMED vdw of  C6  in  DA D  14  =  1.80 (same as   A)
+ NON-STANDARD atom.| N6 | in residue>  DA D  14 
+ ASSUMED vdw of  N6  in  DA D  14  =  1.60 (same as   A)
+ NON-STANDARD atom.| N1 | in residue>  DA D  14 
+ ASSUMED vdw of  N1  in  DA D  14  =  1.60 (same as   A)
+ NON-STANDARD atom.| C2 | in residue>  DA D  14 
+ ASSUMED vdw of  C2  in  DA D  14  =  1.80 (same as   A)
+ NON-STANDARD atom.| N3 | in residue>  DA D  14 
+ ASSUMED vdw of  N3  in  DA D  14  =  1.60 (same as   A)
+ NON-STANDARD atom.| C4 | in residue>  DA D  14 
+ ASSUMED vdw of  C4  in  DA D  14  =  1.80 (same as   A)
+ UNKNOWN residue type.............>  DA D  15 
+ NON-STANDARD atom.| P  | in residue>  DA D  15 
+ ASSUMED vdw of  P   in  DA D  15  =  1.90 (same as   A)
+ NON-STANDARD atom.| OP1| in residue>  DA D  15 
+ GUESSED vdw of  OP1 in  DA D  15  =  1.40
+ NON-STANDARD atom.| OP2| in residue>  DA D  15 
+ GUESSED vdw of  OP2 in  DA D  15  =  1.40
+ NON-STANDARD atom.| O5'| in residue>  DA D  15 
+ GUESSED vdw of  O5' in  DA D  15  =  1.40
+ NON-STANDARD atom.| C5'| in residue>  DA D  15 
+ GUESSED vdw of  C5' in  DA D  15  =  1.80
+ NON-STANDARD atom.| C4'| in residue>  DA D  15 
+ GUESSED vdw of  C4' in  DA D  15  =  1.80
+ NON-STANDARD atom.| O4'| in residue>  DA D  15 
+ GUESSED vdw of  O4' in  DA D  15  =  1.40
+ NON-STANDARD atom.| C3'| in residue>  DA D  15 
+ GUESSED vdw of  C3' in  DA D  15  =  1.80
+ NON-STANDARD atom.| O3'| in residue>  DA D  15 
+ GUESSED vdw of  O3' in  DA D  15  =  1.40
+ NON-STANDARD atom.| C2'| in residue>  DA D  15 
+ GUESSED vdw of  C2' in  DA D  15  =  1.80
+ NON-STANDARD atom.| C1'| in residue>  DA D  15 
+ GUESSED vdw of  C1' in  DA D  15  =  1.80
+ NON-STANDARD atom.| N9 | in residue>  DA D  15 
+ ASSUMED vdw of  N9  in  DA D  15  =  1.60 (same as   A)
+ NON-STANDARD atom.| C8 | in residue>  DA D  15 
+ ASSUMED vdw of  C8  in  DA D  15  =  1.80 (same as   A)
+ NON-STANDARD atom.| N7 | in residue>  DA D  15 
+ ASSUMED vdw of  N7  in  DA D  15  =  1.60 (same as   A)
+ NON-STANDARD atom.| C5 | in residue>  DA D  15 
+ ASSUMED vdw of  C5  in  DA D  15  =  1.80 (same as   A)
+ NON-STANDARD atom.| C6 | in residue>  DA D  15 
+ ASSUMED vdw of  C6  in  DA D  15  =  1.80 (same as   A)
+ NON-STANDARD atom.| N6 | in residue>  DA D  15 
+ ASSUMED vdw of  N6  in  DA D  15  =  1.60 (same as   A)
+ NON-STANDARD atom.| N1 | in residue>  DA D  15 
+ ASSUMED vdw of  N1  in  DA D  15  =  1.60 (same as   A)
+ NON-STANDARD atom.| C2 | in residue>  DA D  15 
+ ASSUMED vdw of  C2  in  DA D  15  =  1.80 (same as   A)
+ NON-STANDARD atom.| N3 | in residue>  DA D  15 
+ ASSUMED vdw of  N3  in  DA D  15  =  1.60 (same as   A)
+ NON-STANDARD atom.| C4 | in residue>  DA D  15 
+ ASSUMED vdw of  C4  in  DA D  15  =  1.80 (same as   A)
+ UNKNOWN residue type.............>  DA D  16 
+ NON-STANDARD atom.| P  | in residue>  DA D  16 
+ ASSUMED vdw of  P   in  DA D  16  =  1.90 (same as   A)
+ NON-STANDARD atom.| OP1| in residue>  DA D  16 
+ GUESSED vdw of  OP1 in  DA D  16  =  1.40
+ NON-STANDARD atom.| OP2| in residue>  DA D  16 
+ GUESSED vdw of  OP2 in  DA D  16  =  1.40
+ NON-STANDARD atom.| O5'| in residue>  DA D  16 
+ GUESSED vdw of  O5' in  DA D  16  =  1.40
+ NON-STANDARD atom.| C5'| in residue>  DA D  16 
+ GUESSED vdw of  C5' in  DA D  16  =  1.80
+ NON-STANDARD atom.| C4'| in residue>  DA D  16 
+ GUESSED vdw of  C4' in  DA D  16  =  1.80
+ NON-STANDARD atom.| O4'| in residue>  DA D  16 
+ GUESSED vdw of  O4' in  DA D  16  =  1.40
+ NON-STANDARD atom.| C3'| in residue>  DA D  16 
+ GUESSED vdw of  C3' in  DA D  16  =  1.80
+ NON-STANDARD atom.| O3'| in residue>  DA D  16 
+ GUESSED vdw of  O3' in  DA D  16  =  1.40
+ NON-STANDARD atom.| C2'| in residue>  DA D  16 
+ GUESSED vdw of  C2' in  DA D  16  =  1.80
+ NON-STANDARD atom.| C1'| in residue>  DA D  16 
+ GUESSED vdw of  C1' in  DA D  16  =  1.80
+ NON-STANDARD atom.| N9 | in residue>  DA D  16 
+ ASSUMED vdw of  N9  in  DA D  16  =  1.60 (same as   A)
+ NON-STANDARD atom.| C8 | in residue>  DA D  16 
+ ASSUMED vdw of  C8  in  DA D  16  =  1.80 (same as   A)
+ NON-STANDARD atom.| N7 | in residue>  DA D  16 
+ ASSUMED vdw of  N7  in  DA D  16  =  1.60 (same as   A)
+ NON-STANDARD atom.| C5 | in residue>  DA D  16 
+ ASSUMED vdw of  C5  in  DA D  16  =  1.80 (same as   A)
+ NON-STANDARD atom.| C6 | in residue>  DA D  16 
+ ASSUMED vdw of  C6  in  DA D  16  =  1.80 (same as   A)
+ NON-STANDARD atom.| N6 | in residue>  DA D  16 
+ ASSUMED vdw of  N6  in  DA D  16  =  1.60 (same as   A)
+ NON-STANDARD atom.| N1 | in residue>  DA D  16 
+ ASSUMED vdw of  N1  in  DA D  16  =  1.60 (same as   A)
+ NON-STANDARD atom.| C2 | in residue>  DA D  16 
+ ASSUMED vdw of  C2  in  DA D  16  =  1.80 (same as   A)
+ NON-STANDARD atom.| N3 | in residue>  DA D  16 
+ ASSUMED vdw of  N3  in  DA D  16  =  1.60 (same as   A)
+ NON-STANDARD atom.| C4 | in residue>  DA D  16 
+ ASSUMED vdw of  C4  in  DA D  16  =  1.80 (same as   A)
+ UNKNOWN residue type.............>  DC D  17 
+ NON-STANDARD atom.| P  | in residue>  DC D  17 
+ ASSUMED vdw of  P   in  DC D  17  =  1.90 (same as   A)
+ NON-STANDARD atom.| OP1| in residue>  DC D  17 
+ GUESSED vdw of  OP1 in  DC D  17  =  1.40
+ NON-STANDARD atom.| OP2| in residue>  DC D  17 
+ GUESSED vdw of  OP2 in  DC D  17  =  1.40
+ NON-STANDARD atom.| O5'| in residue>  DC D  17 
+ GUESSED vdw of  O5' in  DC D  17  =  1.40
+ NON-STANDARD atom.| C5'| in residue>  DC D  17 
+ GUESSED vdw of  C5' in  DC D  17  =  1.80
+ NON-STANDARD atom.| C4'| in residue>  DC D  17 
+ GUESSED vdw of  C4' in  DC D  17  =  1.80
+ NON-STANDARD atom.| O4'| in residue>  DC D  17 
+ GUESSED vdw of  O4' in  DC D  17  =  1.40
+ NON-STANDARD atom.| C3'| in residue>  DC D  17 
+ GUESSED vdw of  C3' in  DC D  17  =  1.80
+ NON-STANDARD atom.| O3'| in residue>  DC D  17 
+ GUESSED vdw of  O3' in  DC D  17  =  1.40
+ NON-STANDARD atom.| C2'| in residue>  DC D  17 
+ GUESSED vdw of  C2' in  DC D  17  =  1.80
+ NON-STANDARD atom.| C1'| in residue>  DC D  17 
+ GUESSED vdw of  C1' in  DC D  17  =  1.80
+ NON-STANDARD atom.| N1 | in residue>  DC D  17 
+ ASSUMED vdw of  N1  in  DC D  17  =  1.60 (same as   A)
+ NON-STANDARD atom.| C2 | in residue>  DC D  17 
+ ASSUMED vdw of  C2  in  DC D  17  =  1.80 (same as   A)
+ NON-STANDARD atom.| O2 | in residue>  DC D  17 
+ ASSUMED vdw of  O2  in  DC D  17  =  1.40 (same as   C)
+ NON-STANDARD atom.| N3 | in residue>  DC D  17 
+ ASSUMED vdw of  N3  in  DC D  17  =  1.60 (same as   A)
+ NON-STANDARD atom.| C4 | in residue>  DC D  17 
+ ASSUMED vdw of  C4  in  DC D  17  =  1.80 (same as   A)
+ NON-STANDARD atom.| N4 | in residue>  DC D  17 
+ ASSUMED vdw of  N4  in  DC D  17  =  1.60 (same as   C)
+ NON-STANDARD atom.| C5 | in residue>  DC D  17 
+ ASSUMED vdw of  C5  in  DC D  17  =  1.80 (same as   A)
+ NON-STANDARD atom.| C6 | in residue>  DC D  17 
+ ASSUMED vdw of  C6  in  DC D  17  =  1.80 (same as   A)
+ UNKNOWN residue type.............>  DG D  18 
+ NON-STANDARD atom.| P  | in residue>  DG D  18 
+ ASSUMED vdw of  P   in  DG D  18  =  1.90 (same as   A)
+ NON-STANDARD atom.| OP1| in residue>  DG D  18 
+ GUESSED vdw of  OP1 in  DG D  18  =  1.40
+ NON-STANDARD atom.| OP2| in residue>  DG D  18 
+ GUESSED vdw of  OP2 in  DG D  18  =  1.40
+ NON-STANDARD atom.| O5'| in residue>  DG D  18 
+ GUESSED vdw of  O5' in  DG D  18  =  1.40
+ NON-STANDARD atom.| C5'| in residue>  DG D  18 
+ GUESSED vdw of  C5' in  DG D  18  =  1.80
+ NON-STANDARD atom.| C4'| in residue>  DG D  18 
+ GUESSED vdw of  C4' in  DG D  18  =  1.80
+ NON-STANDARD atom.| O4'| in residue>  DG D  18 
+ GUESSED vdw of  O4' in  DG D  18  =  1.40
+ NON-STANDARD atom.| C3'| in residue>  DG D  18 
+ GUESSED vdw of  C3' in  DG D  18  =  1.80
+ NON-STANDARD atom.| O3'| in residue>  DG D  18 
+ GUESSED vdw of  O3' in  DG D  18  =  1.40
+ NON-STANDARD atom.| C2'| in residue>  DG D  18 
+ GUESSED vdw of  C2' in  DG D  18  =  1.80
+ NON-STANDARD atom.| C1'| in residue>  DG D  18 
+ GUESSED vdw of  C1' in  DG D  18  =  1.80
+ NON-STANDARD atom.| N9 | in residue>  DG D  18 
+ ASSUMED vdw of  N9  in  DG D  18  =  1.60 (same as   A)
+ NON-STANDARD atom.| C8 | in residue>  DG D  18 
+ ASSUMED vdw of  C8  in  DG D  18  =  1.80 (same as   A)
+ NON-STANDARD atom.| N7 | in residue>  DG D  18 
+ ASSUMED vdw of  N7  in  DG D  18  =  1.60 (same as   A)
+ NON-STANDARD atom.| C5 | in residue>  DG D  18 
+ ASSUMED vdw of  C5  in  DG D  18  =  1.80 (same as   A)
+ NON-STANDARD atom.| C6 | in residue>  DG D  18 
+ ASSUMED vdw of  C6  in  DG D  18  =  1.80 (same as   A)
+ NON-STANDARD atom.| O6 | in residue>  DG D  18 
+ ASSUMED vdw of  O6  in  DG D  18  =  1.40 (same as   G)
+ NON-STANDARD atom.| N1 | in residue>  DG D  18 
+ ASSUMED vdw of  N1  in  DG D  18  =  1.60 (same as   A)
+ NON-STANDARD atom.| C2 | in residue>  DG D  18 
+ ASSUMED vdw of  C2  in  DG D  18  =  1.80 (same as   A)
+ NON-STANDARD atom.| N2 | in residue>  DG D  18 
+ ASSUMED vdw of  N2  in  DG D  18  =  1.60 (same as   G)
+ NON-STANDARD atom.| N3 | in residue>  DG D  18 
+ ASSUMED vdw of  N3  in  DG D  18  =  1.60 (same as   A)
+ NON-STANDARD atom.| C4 | in residue>  DG D  18 
+ ASSUMED vdw of  C4  in  DG D  18  =  1.80 (same as   A)
+ ADDED VDW RADII
+ CHAINS       1
+ RESIDUES    18
+ ATOMS      368
+ SOLVA: PROGRAM ENDS CORRECTLY
+ CALCULATED ATOMIC ACCESSIBILITES
+ RELATIVE (STANDARD) ACCESSIBILITIES READFOR  20 AMINO ACIDS
+ SUMMED ACCESSIBILITIES OVER RESIDUES
