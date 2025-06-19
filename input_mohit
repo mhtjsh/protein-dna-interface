@@ -1,0 +1,4 @@
+snakemake --cores 1 --latency-wait 10
+snakemake --cores 1 --latency-wait 10 --until generate_ints
+python scripts/compute_summary.py --pdb-id 1A3Q
+
