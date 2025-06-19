@@ -21,7 +21,7 @@ p.add_argument("--rsa-dir", default="rsa", help="Path to RSA directory containin
 p.add_argument("--out-dir", default="interface", help="Directory to write output CSVs")
 args = p.parse_args()
 
-pdb_id = args.pdb_id.upper()
+pdb_id = args.pdb_id
 rsa_dir = os.path.abspath(args.rsa_dir)
 out_dir = os.path.abspath(args.out_dir)
 
