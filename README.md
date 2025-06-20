@@ -105,7 +105,7 @@ Protein_DNA_Interface_Generation/
 
 2. **Run the Workflow**
    ```bash
-   snakemake --core 1
+   snakemake --cores 1 --latency-wait 10
    ```
    This commands all the steps: splitting PDB files, running Naccess, and generating interface results.
 
@@ -116,13 +116,13 @@ Protein_DNA_Interface_Generation/
 ### Common Snakemake Options
 - **Dry Run**  
   ```bash
-  snakemake --core 1 --dry-run
+  snakemake --cores 1 --latency-wait 10
   ```
   Shows the planned jobs without executing them.
 
 - **Force All Steps**  
   ```bash
-  snakemake --core 1 --forceall
+  snakemake --cores 1 --latency-wait 10
   ```
   Re-runs every rule ignoring cached results.
 
