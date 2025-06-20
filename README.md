@@ -1,6 +1,6 @@
 # A Comprehensive Protein-DNA Interface Generation Tool with Residue Propensity Map analysis
 
-Welcome to the Protein_DNA_Interface_Generation repository! This README provides a complete overview of the repository structure, workflow details, Docker usage, and more. 🚀
+Welcome to the Protein<>DNA Interface Generation repository! 🚀
 
 ---
 
