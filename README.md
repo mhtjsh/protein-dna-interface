@@ -105,7 +105,7 @@ Protein_DNA_Interface_Generation/
 
 2. **Run the Workflow**
    ```bash
-   snakemake --cores 4
+   snakemake --core 1
    ```
    This commands all the steps: splitting PDB files, running Naccess, and generating interface results.
 
@@ -116,13 +116,13 @@ Protein_DNA_Interface_Generation/
 ### Common Snakemake Options
 - **Dry Run**  
   ```bash
-  snakemake --cores 4 --dry-run
+  snakemake --core 1 --dry-run
   ```
   Shows the planned jobs without executing them.
 
 - **Force All Steps**  
   ```bash
-  snakemake --cores 4 --forceall
+  snakemake --core 1 --forceall
   ```
   Re-runs every rule ignoring cached results.
 
