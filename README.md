@@ -1,4 +1,4 @@
-# Protein_DNA_Interface_Generation
+# Protein DNA Interface Generation with Residue Propensity Map 
 
 Welcome to the Protein_DNA_Interface_Generation repository, where we provide a comprehensive, production-ready pipeline for analyzing and generating protein-DNA interfaces. This README explains the repository structure, installation, usage, and the main workflow powered by Snakemake. 🚀
 
